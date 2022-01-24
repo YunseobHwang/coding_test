@@ -19,6 +19,7 @@ def solution(number, k):
 
     if k > 0:
         answer = answer[:-k]
+    print(answer)
     return answer
 
 if __name__=='__main__':
